@@ -8,7 +8,7 @@
     { "name" : "Cristobal Severin",
       "email" : "cs@booksonwall.art",
       "url" : "https://www.booksonwall.art"
-    } 
+    }
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,7 @@
     "express"
   ],
   "author": "Tom Bouillut",
-  "license": "ISC",
+  "license": "AGPL-3.0",
   "dependencies": {
     "adm-zip": "^0.4.16",
     "body-parser": "^1.19.0",

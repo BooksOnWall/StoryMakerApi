@@ -3,18 +3,18 @@ module.exports.stats = {
   sid: {
     type: Sequelize.INTEGER,
     allowNull: true,
-    references: {
-        model: 'stories',
-        key: 'id'
-    },
+    // references: {
+    //     model: 'stories',
+    //     key: 'id'
+    // },
   },
   ssid: {
     type: Sequelize.INTEGER,
     allowNull: true,
-    references: {
-        model: 'stages',
-        key: 'id'
-    },
+    // references: {
+    //     model: 'stages',
+    //     key: 'id'
+    // },
   },
   name: {
     type: Sequelize.STRING,
